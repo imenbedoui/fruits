@@ -1,0 +1,398 @@
+* 
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: tohoma, serif;
+    scroll-behavior: smooth;
+}
+
+section * 
+{
+
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+
+section 
+{
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 10em;
+    background-color: #F75450;
+
+}
+
+.navbar 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: gold; */
+    padding: 2em 5em;
+    z-index: 60;
+}
+
+
+.logo 
+{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #fff;
+}
+
+
+.navigation
+{
+    display: flex;
+
+}
+
+.navigation li 
+{
+    margin-right: 2em;
+}
+
+.navigation li a 
+{
+    color: #fff;
+}
+
+
+
+.containt 
+{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 50;
+    /* background-color: pink; */
+
+}
+
+.textbox 
+{
+    max-width: 35%;
+
+
+}
+
+.textbox h1 
+{
+    font-size: 4em;
+    color: #fff;
+}
+
+.textbox p 
+{
+    margin-top: 2em;
+    color: #fff;
+}
+
+.textbox a 
+{
+    display: inline-block;
+    padding: .6em 1.5em;
+    color: #000;
+    margin-top: 2em;
+    background-color: #fff;
+    border-radius: 30px;
+}
+
+.imgbox 
+{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.imgbox img 
+{
+    width: 70%;
+    /* z-index: 2000; */
+    /* background-color: red; */
+}
+
+
+.effect 
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 20% 10%, 0 70%);
+}
+
+.thumbs
+{
+    position: absolute;
+    bottom: 1.5em;
+    width: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: space-between;
+    /* padding: 2em; */
+    /* background-color: deepskyblue; */
+}
+
+.thumbs li 
+{
+    width: 15%;
+    
+}
+
+.thumbs li.active
+{
+    border: solid 1px #fff;
+}
+
+
+.thumbs li img 
+{
+    width: 100%;
+    padding: .3;
+}
+
+
+.social 
+{
+    position: absolute;
+    right: 0;
+    width: 3em;
+}
+
+.social li img 
+{
+    width: 100%;
+    scale: .7;
+    filter: invert(1);
+}
+
+
+
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+/* All Responsive */
+
+
+@media (max-width: 991px)
+{
+
+
+section 
+{
+    
+    padding: 2em;
+
+}
+
+.navbar 
+{
+   
+    padding: 2em 2em;
+}
+
+
+.logo 
+{
+    font-size: 1.2em;
+}
+
+.toggle
+    {
+        width: 2em;
+        height: 2em;
+        background:  url("images/icons/menu.png") center/cover;
+        filter: invert(1);
+    }
+
+.navigation
+{
+    display: none;
+
+}
+
+.navigation li 
+{
+    margin-right: 2em;
+}
+
+.navigation li a 
+{
+    color: #fff;
+}
+
+
+
+.containt 
+{
+    flex-direction: column;
+    margin-bottom: 5em;
+    margin-top: 3em;
+}
+
+.textbox 
+{
+    max-width: 100%;
+}
+
+.textbox h1 
+{
+    font-size: 3em;
+}
+
+
+
+.imgbox 
+{
+    width: 100%;
+    margin-top: 2em;
+}
+
+.imgbox img 
+{
+    width: 100%;
+}
+
+
+.effect 
+{
+   display: none;
+}
+
+.thumbs
+{
+    bottom: 1.5em;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.thumbs li 
+{
+    width: 18%;
+    
+}
+
+.thumbs li.active
+{
+    border: solid 1px #fff;
+}
+
+
+.thumbs li img 
+{
+    width: 100%;
+    padding: .3;
+}
+
+
+.social 
+{
+    position: absolute;
+    right: 0;
+    width: 2.5em;
+}
+
+.social li img 
+{
+    width: 100%;
+    scale: .7;
+    filter: invert(1);
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
